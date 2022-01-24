@@ -7,7 +7,6 @@ let NewContact = function () {
         // this.initContact()
         let elementWrapper = document.querySelector('.app__wrapper'),
             list = '';
-        console.log(elementWrapper)
         if(!elementWrapper) return;
             list += `<div class="app__item">
                         <p>${this.resultFirstName}</p>
@@ -26,8 +25,3 @@ let NewContact = function () {
 let newContact = new NewContact();
 let newContact2 = new NewContact();
 newContact.getNewContact()
-
-
-let Constructor = function() {
-    
-}

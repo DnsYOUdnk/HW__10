@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.app {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.app.back {
+    background-color: rgb(65, 43, 65);
+    height: 100%;
+}
+
+.wrapper {
+    background-color: rgb(184, 179, 179);
+    width: 200px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+}
+
+.btn {
+    width: 150px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.btn.form {
+    border-radius: 20px;
+    background-color: rgb(85, 73, 85);
+}
